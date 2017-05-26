@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"
+  >
+  <title>OTP Internet TV</title>
+</head>
+<body>
+  <main></main>
+  <script src='ChannelsLineup-min.js'></script>
+  <script src='Channels.js'></script>
+  <script>
+    var app = new Channels({
+      target: document.querySelector( 'main' ),
+      data: {
+        channelLineup
+      }
+    });
+  </script>
+</body>
+</html>

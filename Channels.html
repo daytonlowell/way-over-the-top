@@ -1,0 +1,123 @@
+<style>
+	.green {
+		color: green;
+	}
+	.red {
+		color: red;
+	}
+	.sticky {
+		position: -webkit-sticky;
+		position: -moz-sticky;
+		position: -ms-sticky;
+		position: -o-sticky;
+		position: sticky;
+		top: 0px;
+	}
+	a {
+		color: white;
+	}
+</style>
+
+<div class="container-fluid">
+  <h1 class="display-4" style="margin-bottom: 15px;">Way Over The Top</h1>
+  
+  <table class="table table-hover text-center table-bordered">
+    <thead class="thead-inverse">
+      <tr>
+        <th class="sticky" style="width: 15vw">Channel</th>
+        <th class="sticky text-center"><a href="https://www.hulu.com/live-tv" target="_blank">Hulu <span class="hidden-xs-down">Live TV</span></th>
+        <th class="sticky text-center"><a href="https://tv.youtube.com/welcome/" target="_blank">YouTube TV</th>
+        <th class="sticky text-center"><a href="https://www.sling.com/service" target="_blank">Sling TV</th>
+        <th class="sticky text-center"><a href="http://cdn.directv.com/content/dam/dtv/gmott/html/compare-packages-account.html" target="_blank">DirecTV Now</th>
+        <th class="sticky text-center"><a href="https://www.playstation.com/en-us/network/vue/channels/" target="_blank">PlayStation Vue</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each channelLineup.channels as channel}}
+      <tr>
+        <th scope="row">{{channel.Name}}</th>
+        <td>
+        {{#if channel.Providers['Hulu Live TV']}}
+          <span class="badge badge-success">Yes</span>
+        {{else}}
+          <span class="badge badge-danger">No</span>
+        {{/if}}
+        </td>
+        <td>
+        {{#if channel.Providers['YouTube TV']}}
+          <span class="badge badge-success">Yes</span>
+        {{else}}
+          <span class="badge badge-danger">No</span>
+        {{/if}}
+        </td>
+        <td>
+        {{#if channel.Providers['Sling TV']}}
+            {{#if channel.Providers['Sling TV'] === true}}
+              <span class="badge badge-success">Yes</span>
+			{{elseif channel.Providers['Sling TV'] === 'Add-on'}}
+			  <span class="badge badge-warning">Add-on</span>
+            {{elseif typeof channel.Providers['Sling TV'] === 'object'}}  
+	          {{#if channel.Providers['Sling TV']['20']}}
+			    <span class="badge badge-default">$20</span>
+			  {{/if}}
+			  {{#if channel.Providers['Sling TV']['25']}}
+			    <span class="badge badge-primary">$25</span>
+			  {{/if}}
+			{{/if}}
+		{{else}}
+          <span class="badge badge-danger">No</span>
+        {{/if}}
+        </td>
+        <td>
+        {{#if channel.Providers['DirecTV Now']}}
+            {{#if channel.Providers['DirecTV Now'] === true}}
+              <span class="badge badge-success">Yes</span>
+			{{elseif channel.Providers['DirecTV Now'] === 'Add-on'}}
+			  <span class="badge badge-warning">Add-on</span>
+            {{elseif typeof channel.Providers['DirecTV Now'] === 'object'}}  
+	          {{#if channel.Providers['DirecTV Now']['35']}}
+			    <span class="badge badge-default">$35</span>
+			  {{/if}}
+			  {{#if channel.Providers['DirecTV Now']['50']}}
+			    <span class="badge badge-primary">$50</span>
+			  {{/if}}
+			  {{#if channel.Providers['DirecTV Now']['60']}}
+			    <span class="badge badge-info">$60</span>
+			  {{/if}}
+			  {{#if channel.Providers['DirecTV Now']['70']}}
+			    <span class="badge badge-success">$70</span>
+			  {{/if}}
+			{{/if}}
+		{{else}}
+          <span class="badge badge-danger">No</span>
+        {{/if}}
+        </td>
+        <td>
+        {{#if channel.Providers['PlayStation Vue']}}
+            {{#if channel.Providers['PlayStation Vue'] === true}}
+              <span class="badge badge-success">Yes</span>
+			{{elseif channel.Providers['PlayStation Vue'] === 'Add-on'}}
+			  <span class="badge badge-warning">Add-on</span>
+            {{elseif typeof channel.Providers['PlayStation Vue'] === 'object'}}  
+	          {{#if channel.Providers['PlayStation Vue']['30']}}
+			    <span class="badge badge-default">$30</span>
+			  {{/if}}
+			  {{#if channel.Providers['PlayStation Vue']['35']}}
+			    <span class="badge badge-primary">$35</span>
+			  {{/if}}
+			  {{#if channel.Providers['PlayStation Vue']['45']}}
+			    <span class="badge badge-info">$45</span>
+			  {{/if}}
+			  {{#if channel.Providers['PlayStation Vue']['65']}}
+			    <span class="badge badge-success">$65</span>
+			  {{/if}}
+			{{/if}}
+		{{else}}
+          <span class="badge badge-danger">No</span>
+        {{/if}}
+        </td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
