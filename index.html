@@ -11,15 +11,9 @@
 </head>
 <body>
   <main></main>
-  <script src='ChannelsLineup-min.js'></script>
-  <script src='Channels-min.js'></script>
-  <script>
-    var app = new Channels({
-      target: document.querySelector( 'main' ),
-      data: {
-        channelLineup
-      }
-    });
-  </script>
+  <script src="https://cdn.polyfill.io/v2/polyfill.js?features=Object.assign|gated"></script>
+  <script src='provider-channels.js'></script>
+  <script src='Channels.js'></script>
+  <script src='app.js'></script>
 </body>
 </html>
