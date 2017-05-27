@@ -1,6 +1,6 @@
-import Channels from './Channels.html'
+import Main from './Main.html'
 
-new Channels({
+new Main({
 	target: document.querySelector('main'),
 	data: {
 		channelPickMode: false,
