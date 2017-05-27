@@ -1,0 +1,26 @@
+{
+  "name": "way-over-the-top",
+  "version": "1.0.0",
+  "description": "Over the Top Internet TV data and web view",
+  "main": "Channels.js",
+  "dependencies": {
+    "gzip-all": "^1.0.0",
+    "svelte-cli": "^1.3.6",
+    "uglify-js": "^3.0.11",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daytonlowell/way-over-the-top.git"
+  },
+  "author": "daytonlowell",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/daytonlowell/way-over-the-top/issues"
+  },
+  "homepage": "https://github.com/daytonlowell/way-over-the-top#readme"
+}
