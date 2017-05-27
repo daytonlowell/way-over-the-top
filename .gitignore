@@ -1,6 +1,4 @@
 /notes.txt
-/ChannelsLineup-min.js.gz
-/Channels-min.js
-/Channels-min.js.gz
-/ChannelsLineup-min.js
-/Channels.js
+bundle.js
+bundle.js.map
+*.gz
