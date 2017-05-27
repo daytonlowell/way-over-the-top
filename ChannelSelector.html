@@ -1,0 +1,24 @@
+<table class="table table-hover text-center table-bordered">
+	<thead class="thead-inverse">
+		<tr>
+			<th class="sticky" style="width: 1%">Show</th>
+			<th class="sticky" style="width: 15vw">Channel</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each channels as channel}}
+		<tr>
+			{{#if channelPickMode}}
+			<td>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" bind:value="shown[channel.Name]">
+					</label>
+				</div>
+			</td>
+			{{/if}}
+			<th scope="row">{{channel.Name}}</th>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
