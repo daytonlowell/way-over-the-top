@@ -8,17 +8,40 @@
 	<tbody>
 		{{#each channels as channel}}
 		<tr>
-			{{#if channelPickMode}}
 			<td>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" bind:value="shown[channel.Name]">
+						<Checkbox 
+							type="checkbox" 
+							checked="{{shown[channel.Name]}}"
+							on:checked="showChannel(channel, true)"
+							on:unchecked="showChannel(channel, false)"
+						>
 					</label>
 				</div>
 			</td>
-			{{/if}}
 			<th scope="row">{{channel.Name}}</th>
 		</tr>
 		{{/each}}
 	</tbody>
 </table>
+
+<script>
+	import Checkbox from './Checkbox.html'
+
+	export default {
+		components: {
+			Checkbox
+		},
+		methods: {
+			showChannel(channel, show) {
+				const shown = Object.assign(this.get('shown'), {
+					[channel.Name]: show
+				})
+				this.set({
+					shown
+				})
+			}
+		}
+	}
+</script>

@@ -39,13 +39,14 @@
 		<div class="col-md-2"></div>
 	</div>
 	{{#if channelPickMode}}
-	<ChannelSelector channelLineup="{{channelLineup}}" shown="{{shown}}" />
+	<ChannelSelector channels="{{channelLineup}}" bind:shown />
 	{{else}}
 	<ChannelList channels="{{visibleChannels}}" />
 	{{/if}}
 </div>
 <script>
 import channelLineup from './provider-channels.js'
+import ChannelList from './ChannelList.html'
 import ChannelSelector from './ChannelSelector.html'
 
 export default {
@@ -66,7 +67,8 @@ export default {
 		}
 	},
 	components: {
-		ChannelSelector
+		ChannelSelector,
+		ChannelList
 	}
 }
 </script>
