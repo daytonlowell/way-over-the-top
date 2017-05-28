@@ -1,0 +1,12 @@
+<input type="checkbox" bind:checked="checked" on:change="change(checked)">
+
+<script>
+export default {
+	methods: {
+		change(checked) {
+			const eventName = checked ? 'checked' : 'unchecked'
+			this.fire(eventName)
+		}
+	}
+}	
+</script>

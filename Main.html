@@ -1,0 +1,74 @@
+<style>
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.white {
+	color: white;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+#filter-channel-btn {
+	position: absolute;
+	left: 15px;
+	bottom: 0;
+}
+</style>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 col-xs-12" style="position: relative;">
+			<button id="filter-channel-btn" class="btn btn-sm btn-primary" on:click='set({ channelPickMode: !channelPickMode })'>{{#if channelPickMode}}Done Picking Channels{{else}}Pick Channels{{/if}}</button>
+		</div>
+		<div class="col-md-8 hidden-sm-down">
+			<h1 class="display-4 text-center" style="margin-bottom: 15px;">
+				Way <a style="color: inherit" href="https://en.wikipedia.org/wiki/Over-the-top_content" target="_blank">Over the Top</a>
+			</h1>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	{{#if channelPickMode}}
+	<ChannelSelector channels="{{channelLineup}}" bind:shown />
+	{{else}}
+	<ChannelList channels="{{visibleChannels}}" />
+	{{/if}}
+</div>
+<script>
+import channelLineup from './provider-channels.js'
+import ChannelList from './ChannelList.html'
+import ChannelSelector from './ChannelSelector.html'
+
+export default {
+	data() {
+		const shown = {}
+		channelLineup.forEach(channel => {
+			shown[channel.Name] = true
+		})
+		
+		return {
+			channelLineup,
+			shown
+		}
+	},
+	computed: {
+		visibleChannels: (channelLineup, shown) => {
+			return channelLineup.filter(channel => shown[channel.Name])
+		}
+	},
+	components: {
+		ChannelSelector,
+		ChannelList
+	}
+}
+</script>

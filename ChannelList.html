@@ -1,0 +1,112 @@
+<table class="table table-hover text-center table-bordered">
+	<thead class="thead-inverse">
+		<tr>
+			<th class="sticky" style="width: 15vw">Channel</th>
+			{{#each providers as provider}}
+				<th class="sticky text-center">
+					<a class="white" href="{{provider.url}}" target="_blank">
+						{{provider.name}}
+					</a>
+				</th>
+			{{/each}}
+		</tr>
+	</thead>
+	<tbody>
+		{{#each channels as channel}}
+		<tr>
+			<th scope="row">{{channel.Name}}</th>
+			{{#each providers as provider}}
+				<td>
+					{{#each getBadges(channel, provider) as badge}}
+						<span class="badge badge-pill {{badge.className}}">{{badge.text}}</span>
+					{{/each}}
+				</td>
+			{{/each}}
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+
+<script>
+	function badge(className, text) {
+		return { className, text }
+	}
+	const yes = badge('badge-success', 'Yes')
+	const no = badge('badge-danger', 'No')
+	const addon = badge('badge-warning', 'Add-on')
+
+	const providers = [{
+		name: 'Hulu Live TV',
+		url: 'https://www.hulu.com/live-tv',
+		badges: {
+			true: yes,
+			false: no,
+			'Add-on': addon,
+		}
+	}, {
+		name: 'YouTube TV',
+		url: 'https://tv.youtube.com/welcome/',
+		badges: {
+			true: yes,
+			false: no,
+			'Add-on': addon,
+		}
+	}, {
+		name: 'Sling TV',
+		url: 'https://www.sling.com/service',
+		badges: {
+			true: yes,
+			false: no,
+			'Add-on': addon,
+			20: badge('badge-default', '$20'),
+			25: badge('badge-primary', '$25')
+		}
+	}, {
+		name: 'DirecTV Now',
+		url: 'http://cdn.directv.com/content/dam/dtv/gmott/html/compare-packages-account.html',
+		badges: {
+			true: yes,
+			false: no,
+			'Add-on': addon,
+			35: badge('badge-default', '$35'),
+			50: badge('badge-primary', '$50'),
+			60: badge('badge-info', '$60'),
+			70: badge('badge-success', '$70')
+		}
+	}, {
+		name: 'PlayStation Vue',
+		url: 'https://www.playstation.com/en-us/network/vue/channels/',
+		badges: {
+			true: yes,
+			false: no,
+			'Add-on': addon,
+			30: badge('badge-default', '$30'),
+			35: badge('badge-primary', '$35'),
+			45: badge('badge-info', '$45'),
+			65: badge('badge-success', '$65')
+		}
+	}]
+
+	export default {
+		data() {
+			return {
+				providers
+			}
+		},
+		helpers: {
+			getBadges(channel, provider) {
+				const badges = provider.badges
+				const providerChannelSupport = channel.Providers[provider.name]
+
+				if (typeof providerChannelSupport === 'object') {
+					return Object.keys(providerChannelSupport)
+						.filter(id => providerChannelSupport[id])
+						.map(id => badges[id])
+				} else {
+					const id = providerChannelSupport || 'false'
+					return [ badges[id] ]
+				}
+			}
+		}
+	}
+</script>
