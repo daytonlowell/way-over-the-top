@@ -10,8 +10,19 @@
     "uglify-js": "^3.0.11",
     "watch": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-external-helpers": "6.22.0",
+    "babel-preset-es2015": "6.24.1",
+    "rollup": "0.41.6",
+    "rollup-plugin-babel": "2.7.1",
+    "rollup-plugin-commonjs": "8.0.2",
+    "rollup-plugin-node-resolve": "3.0.0",
+    "rollup-plugin-svelte": "1.8.1",
+    "rollup-watch": "3.2.2"
+  },
   "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w --dev --sourcemap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
