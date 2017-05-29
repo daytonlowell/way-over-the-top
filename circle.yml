@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - "7.10.0"
+after_success:
+  - surge --project . --domain https://way-over-the-top.surge.sh
+  - surge --project . --domain http://wayoverthe.top
