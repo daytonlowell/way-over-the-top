@@ -18,7 +18,7 @@
 			{{#each providers as provider}}
 				<td>
 					{{#each getBadges(channel, provider) as badge}}
-						<span class="badge badge-pill {{badge.className}}">{{badge.text}}</span>
+						<span class="badge badge-pill {{badge.className}}" style="margin: 1px;">{{badge.text}}</span>
 					{{/each}}
 				</td>
 			{{/each}}
