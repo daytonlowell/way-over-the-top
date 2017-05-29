@@ -1,6 +1,11 @@
-language: node_js
-node_js:
-  - "7.10.0"
-after_success:
-  - surge --project . --domain https://way-over-the-top.surge.sh
-  - surge --project . --domain http://wayoverthe.top
+machine:
+  node:
+    version: 6.10.3
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm run deploy
+test:
+  override:
+    - nvm use 7.10 && npm t

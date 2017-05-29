@@ -26,7 +26,8 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w --dev --sourcemap",
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "deploy": "npm run build && surge --project . --domain https://way-over-the-top.surge.sh && surge --project . --domain http://wayoverthe.top"
   },
   "repository": {
     "type": "git",
