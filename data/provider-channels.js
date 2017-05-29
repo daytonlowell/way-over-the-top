@@ -70,6 +70,7 @@ export default [
 				"35": true,
 				"45": true,
 				"65": true
+				"70": true
 			}
 		}
 	},
