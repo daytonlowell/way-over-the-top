@@ -8,4 +8,4 @@ deployment:
       - npm run deploy
 test:
   override:
-    - nvm use 7.10 && npm t
+    - nvm use 6.10 && npm t
