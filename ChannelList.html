@@ -1,13 +1,13 @@
-<table class="table table-hover text-center table-bordered">
+<table class="table table-hover text-center table-bordered table-responsive">
 	<thead class="thead-inverse">
 		<tr>
-			<th class="sticky" style="width: 15vw">Channel</th>
+			<th class="sticky" style="width: 16.66vw">Channel</th>
 			{{#each providers as provider}}
-				<th class="sticky text-center">
-					<a class="white" href="{{provider.url}}" target="_blank">
-						{{provider.name}}
-					</a>
-				</th>
+			<th class="sticky text-center" style="width: 16.66vw">
+				<a class="white" href="{{provider.url}}" target="_blank">
+					{{provider.name}}
+				</a>
+			</th>
 			{{/each}}
 		</tr>
 	</thead>

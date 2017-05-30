@@ -19,36 +19,40 @@
 	position: sticky;
 	top: 0px;
 }
-
-#pick-channel-btn {
-	position: absolute;
-	left: 15px;
-	bottom: 0;
+.channel-pick-buttons {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
 }
-.select-btns {
-	position: absolute;
-	right: 15px;
+
+table {
+	display: inline !important;/*to override table-responsive so we can keep our sticky table header*/
 }
 </style>
-<div class="container-fluid">
+<div class="container">
+	<h3>
+		Way <a style="color: inherit" href="https://en.wikipedia.org/wiki/Over-the-top_content" target="_blank">Over the Top</a>
+	</h3>
 	<div class="row">
-		<div class="col-md-2" style="position: relative;">
-			<button id="pick-channel-btn" class="btn btn-block btn-outline-primary" on:click='set({ channelPickMode: !channelPickMode })'>{{#if channelPickMode}}Done{{else}}Pick Channels{{/if}}</button>
+		<div class="col">
+			<button
+			  class="btn btn-outline-primary channel-pick-buttons" 
+			  on:click='set({ channelPickMode: !channelPickMode })'
+			>
+			{{#if channelPickMode}}Done{{else}}Pick Channels{{/if}}
+			</button>
 		</div>
-		<div class="col-md-8">
-			<h1 class="display-4 text-center" style="margin-bottom: 15px;">
-				Way <a style="color: inherit" href="https://en.wikipedia.org/wiki/Over-the-top_content" target="_blank">Over the Top</a>
-			</h1>
-		</div>
-		<div class="col-md-2" style="position: relative;">
-		{{#if channelPickMode}}
-			<button class="btn btn-block btn-outline-primary select-btns" style="bottom: 1;" on:click="showAllChannels(true)">Select All</button>
-			<button class="btn btn-block btn-outline-primary select-btns" style="bottom: 0;" on:click="showAllChannels(false)">Select None</button>
-		{{/if}}
+		<div class="col">
+			{{#if channelPickMode}}
+			<div class="text-right">
+		      	<button class="btn btn-outline-primary channel-pick-buttons" on:click="showAllChannels(true)"><span class="hidden-sm-down">Select{{" "}}</span>All</button>
+		        <button class="btn btn-outline-primary channel-pick-buttons" on:click="showAllChannels(false)"><span class="hidden-sm-down">Select{{" "}}</span>None</button>
+		    </div>
+		    {{/if}}
 		</div>
 	</div>
 	{{#if channelPickMode}}
-	<ChannelSelector channels="{{channelLineup}}" bind:shown />
+	<ChannelSelector channels="{{channelLineup}}" visibleChannels="{{visibleChannels}}" bind:shown />
 	{{else}}
 	<ChannelList channels="{{visibleChannels}}" />
 	{{/if}}
