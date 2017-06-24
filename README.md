@@ -1,10 +1,10 @@
 Way Over the Top lets you easily compare the channel lineups for different [OTP](https://en.wikipedia.org/wiki/Over-the-top_content) Internet TV service providers.
 
-#The web app
+# The web app
 
 [Way Over the Top](https://way-over-the-top.surge.sh/)
 
-#Contribute to the data sets
+# Contribute to the data sets
 
 - [List of providers](data/providers.js)
 - [List of channels supported by providers](data/provider-channels.js)
