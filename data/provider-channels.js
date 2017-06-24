@@ -734,7 +734,7 @@ export default [
 		"Name": "BBC World News",
 		"Providers": {
 			"Hulu Live TV": false,
-			"YouTube TV": false,
+			"YouTube TV": true,
 			"Sling TV": "Add-on",
 			"DirecTV Now": {
 				"35": false,
