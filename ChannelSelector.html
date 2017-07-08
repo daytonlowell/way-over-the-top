@@ -6,7 +6,7 @@
 	</thead>
 	<tbody>
 		{{#each channels as channel}}
-		<tr on:click="showChannel(channel, !shown[channel.Name])" class="{{shown[channel.Name] ? 'table-info' : ''}}">
+		<tr on:click="showChannel(channel, !shown[channel.Name])" class="{{shown[channel.Name] ? 'table-info' : ''}}" style="cursor: pointer;">
 			<th scope="row">{{channel.Name}}</th>
 		</tr>
 		{{/each}}
