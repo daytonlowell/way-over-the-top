@@ -132,7 +132,7 @@ export default [
 	{
 		"Name": "Cinemax",
 		"Providers": {
-			"Hulu Live TV": false,
+			"Hulu Live TV": "Add-on",
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": "Add-on",
@@ -343,7 +343,7 @@ export default [
 	{
 		"Name": "HBO",
 		"Providers": {
-			"Hulu Live TV": false,
+			"Hulu Live TV": "Add-on",
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": "Add-on",
