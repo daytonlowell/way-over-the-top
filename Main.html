@@ -19,7 +19,7 @@
 	position: sticky;
 	top: 0px;
 }
-.channel-pick-buttons {
+.pick-buttons {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	display: inline-block;
@@ -36,71 +36,117 @@ table {
 	</h3>
 	<div class="row">
 		<div class="col">
+			{{#if channelPickMode || providerPickMode}}
 			<button
-			  class="btn btn-outline-primary channel-pick-buttons" 
-			  on:click='set({ channelPickMode: !channelPickMode })'
-			>
-			{{#if channelPickMode}}Done{{else}}Pick Channels{{/if}}
-			</button>
+			  class="btn btn-outline-primary pick-buttons" 
+			  on:click='donePicking()'
+			>Done</button>
+			{{else}}
+			<button
+			  class="btn btn-outline-primary pick-buttons" 
+			  on:click='set({ channelPickMode: true })'
+			>Pick Channels</button>
+			<button
+			  class="btn btn-outline-primary pick-buttons" 
+			  on:click='set({ providerPickMode: true })'
+			>Pick Providers</button>
+			{{/if}}
 		</div>
 		<div class="col">
-			{{#if channelPickMode}}
+			{{#if channelPickMode || providerPickMode}}
 			<div class="text-right">
-		      	<button class="btn btn-outline-primary channel-pick-buttons" on:click="showAllChannels(true)"><span class="hidden-sm-down">Select{{" "}}</span>All</button>
-		        <button class="btn btn-outline-primary channel-pick-buttons" on:click="showAllChannels(false)"><span class="hidden-sm-down">Select{{" "}}</span>None</button>
+		      	<button class="btn btn-outline-primary pick-buttons" on:click="showAll(true)"><span class="hidden-sm-down">Select{{" "}}</span>All</button>
+		        <button class="btn btn-outline-primary pick-buttons" on:click="showAll(false)"><span class="hidden-sm-down">Select{{" "}}</span>None</button>
 		    </div>
 		    {{/if}}
 		</div>
 	</div>
 	{{#if channelPickMode}}
-	<ChannelSelector channels="{{channelLineup}}" visibleChannels="{{visibleChannels}}" bind:shown />
+	<ChannelSelector context="Channels" items="{{channels}}" displayProperty="Name" visibleItems="{{visibleChannels}}" bind:shown="shownChannels" />
+	{{elseif providerPickMode}}
+	<ProviderSelector context="Providers" items="{{providers}}" displayProperty="name" visibleItems="{{visibleProviders}}" bind:shown="shownProviders" />
 	{{else}}
-	<ChannelList channels="{{visibleChannels}}" />
+	<ChannelList channels="{{visibleChannels}}" providers="{{visibleProviders}}" />
 	{{/if}}
 </div>
+
 <script>
-import channelLineup from './data/provider-channels.js'
+import channels from './data/provider-channels.js'
+import providers from './data/providers.js'
 import ChannelList from './ChannelList.html'
-import ChannelSelector from './ChannelSelector.html'
+import ChannelSelector from './VisibilitySelector.html'
+import ProviderSelector from './VisibilitySelector.html'
 
 export default {
 	data() {
-		const shown = {}
+		var shownChannels = {}
+		var shownProviders = {}
 
-		channelLineup.forEach(channel => {
-			shown[channel.Name] = true
+		channels.forEach(channel => {
+			shownChannels[channel.Name] = true
+		})
+
+		providers.forEach(provider => {
+			shownProviders[provider.name] = true
 		})
 
 		const localStorageShownChannels = localStorage.getItem('shownChannels')
 		if(localStorageShownChannels) {
-			Object.assign(shown, JSON.parse(localStorageShownChannels))
+			Object.assign(shownChannels, JSON.parse(localStorageShownChannels))
+		}
+
+		const localStorageShownProviders = localStorage.getItem('shownProviders')
+		if(localStorageShownProviders) {
+			Object.assign(shownProviders, JSON.parse(localStorageShownProviders))
 		}
 		
 		return {
-			channelLineup,
-			shown
+			channels,
+			providers,
+			shownChannels,
+			shownProviders
 		}
 	},
 	computed: {
-		visibleChannels: (channelLineup, shown) => {
-			return channelLineup.filter(channel => shown[channel.Name])
-		}
+		visibleChannels: (channels, shownChannels) => {
+			return channels.filter(channel => shownChannels[channel.Name])
+		},
+		visibleProviders: (providers, shownProviders) => {
+			return providers.filter(provider => shownProviders[provider.name])
+		},
 	},
 	components: {
+		ChannelList,
 		ChannelSelector,
-		ChannelList
+		ProviderSelector
 	},
 	methods: {
-		showAllChannels(show) {
-			const shown = this.get('shown')
-			Object.keys(shown).forEach(function(channel) {
-			    shown[channel] = show
-			});
+		showAll(show) {
+			if(this.get('channelPickMode')) {
+				const shown = this.get('shownChannels')
+				Object.keys(shown).forEach(function(channel) {
+				    shown[channel] = show
+				});
 
-			this.set({ shown })
-			if(show) localStorage.removeItem('shownChannels')
-			else localStorage.setItem('shownChannels', JSON.stringify(shown))
-			
+				this.set({ shownChannels: shown })
+				if(show) localStorage.removeItem('shownChannels')
+				else localStorage.setItem('shownChannels', JSON.stringify(shown))
+			}
+			else if(this.get('providerPickMode')) {
+				const shown = this.get('shownProviders')
+				Object.keys(shown).forEach(function(provider) {
+				    shown[provider] = show
+				});
+
+				this.set({ shownProviders: shown })
+				if(show) localStorage.removeItem('shownProviders')
+				else localStorage.setItem('shownProviders', JSON.stringify(shown))
+			}
+
+		},
+		donePicking() {
+			this.set({ channelPickMode: false })
+			this.set({ providerPickMode: false })
 		}
 	}
 }

@@ -4,9 +4,7 @@
 			<th class="sticky" style="width: 16.66vw">Channel</th>
 			{{#each providers as provider}}
 			<th class="sticky text-center" style="width: 16.66vw">
-				<a class="white" href="{{provider.url}}" target="_blank">
 					{{provider.name}}
-				</a>
 			</th>
 			{{/each}}
 		</tr>
@@ -29,14 +27,7 @@
 
 <script>
 
-	import providers from './data/providers.js'
-
 	export default {
-		data() {
-			return {
-				providers
-			}
-		},
 		helpers: {
 			getBadges(channel, provider) {
 				const badges = provider.badges

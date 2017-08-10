@@ -1,0 +1,29 @@
+<table class="table table-hover text-center table-bordered table-responsive">
+	<thead class="thead-inverse">
+		<tr>
+			<th style="width: 100vw">{{context}}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each items as item}}
+		<tr on:click="showItem(item, !shown[item[displayProperty]])" class="{{shown[item[displayProperty]] ? 'table-info' : ''}}" style="cursor: pointer;">
+			<th scope="row">{{item[displayProperty]}}</th>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+
+<script>
+	export default {
+		methods: {
+			showItem(item, show) {
+				const shown = Object.assign(this.get('shown'), {
+					[item[this.get('displayProperty')]]: show
+				})
+
+				this.set({ shown })
+				localStorage.setItem('shown'+this.get('context'), JSON.stringify(shown))
+			}
+		}
+	}
+</script>
