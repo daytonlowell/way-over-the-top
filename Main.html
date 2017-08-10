@@ -34,9 +34,9 @@ table {
 	<h3>
 		Way <a style="color: inherit" href="https://en.wikipedia.org/wiki/Over-the-top_content" target="_blank">Over the Top</a>
 	</h3>
-	<div class="row">
+	<div class="row{{pickingMode ? ' sticky' : ''}}" style="background-color: white;">
 		<div class="col">
-			{{#if channelPickMode || providerPickMode}}
+			{{#if pickingMode}}
 			<button
 			  class="btn btn-outline-primary pick-buttons" 
 			  on:click='donePicking()'
@@ -53,7 +53,7 @@ table {
 			{{/if}}
 		</div>
 		<div class="col">
-			{{#if channelPickMode || providerPickMode}}
+			{{#if pickingMode}}
 			<div class="text-right">
 		      	<button class="btn btn-outline-primary pick-buttons" on:click="showAll(true)"><span class="hidden-sm-down">Select{{" "}}</span>All</button>
 		        <button class="btn btn-outline-primary pick-buttons" on:click="showAll(false)"><span class="hidden-sm-down">Select{{" "}}</span>None</button>
@@ -131,6 +131,9 @@ export default {
 		visibleProviders: (providers, shownProviders) => {
 			return providers.filter(provider => shownProviders[provider.name])
 		},
+		pickingMode: (channelPickMode, providerPickMode) => {
+			return channelPickMode || providerPickMode
+		}
 	},
 	components: {
 		ChannelList,
