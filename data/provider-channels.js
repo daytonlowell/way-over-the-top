@@ -6,16 +6,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "ABC",
@@ -24,8 +24,8 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": "Add-on",
 			"DirecTV Now": true,
-			"PlayStation Vue": true
-		}
+			"PlayStation Vue": true,
+		},
 	},
 	{
 		"Name": "AMC",
@@ -34,21 +34,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "BBC America",
@@ -57,21 +57,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Bravo",
@@ -80,21 +80,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Cartoon Network/Adult Swim",
@@ -103,21 +103,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "CBS",
@@ -126,8 +126,8 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": true
-		}
+			"PlayStation Vue": true,
+		},
 	},
 	{
 		"Name": "Cinemax",
@@ -136,8 +136,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": "Add-on",
-			"PlayStation Vue": "Add-on"
-		}
+			"PlayStation Vue": "Add-on",
+		},
 	},
 	{
 		"Name": "CNN",
@@ -146,21 +146,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Comedy Central",
@@ -169,16 +169,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "CSPAN",
@@ -190,10 +190,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Disney Channel",
@@ -202,21 +202,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": false
+				"25": false,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "ESPN",
@@ -225,21 +225,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": false
+				"25": false,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "ESPN 2",
@@ -248,21 +248,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": false
+				"25": false,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "ESPNEWS",
@@ -274,15 +274,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Fox",
@@ -291,11 +291,11 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": true,
-			"PlayStation Vue": true
-		}
+			"PlayStation Vue": true,
+		},
 	},
 	{
 		"Name": "Fox News",
@@ -307,15 +307,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "FX",
@@ -324,21 +324,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "HBO",
@@ -347,8 +347,14 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": "Add-on",
-			"PlayStation Vue": "Add-on"
-		}
+			"PlayStation Vue": {
+				"Add-on": true,
+				"40": false,
+				"45": false,
+				"55": false,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "HGTV",
@@ -357,21 +363,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "History",
@@ -380,16 +386,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Lifetime",
@@ -398,16 +404,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "MLB Network",
@@ -419,15 +425,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "MSNBC",
@@ -439,15 +445,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "MTV",
@@ -459,10 +465,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "NBA TV",
@@ -474,15 +480,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "NBC",
@@ -491,11 +497,11 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": true,
-			"PlayStation Vue": true
-		}
+			"PlayStation Vue": true,
+		},
 	},
 	{
 		"Name": "NFL Network",
@@ -504,16 +510,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "NFL RedZone",
@@ -522,8 +528,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": "Add-on"
-		}
+			"PlayStation Vue": "Add-on",
+		},
 	},
 	{
 		"Name": "NHL Network",
@@ -532,16 +538,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Nickelodeon",
@@ -553,10 +559,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "PBS",
@@ -565,8 +571,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Showtime",
@@ -575,8 +581,14 @@ export default [
 			"YouTube TV": "Add-on",
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": "Add-on"
-		}
+			"PlayStation Vue": {
+				"Add-on": true,
+				"40": false,
+				"45": false,
+				"55": false,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Starz",
@@ -588,10 +600,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": false,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Syfy",
@@ -600,21 +612,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "TBS",
@@ -623,21 +635,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "The CW",
@@ -646,8 +658,8 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "The Weather Channel",
@@ -659,10 +671,10 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "TNT",
@@ -671,21 +683,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "USA Network",
@@ -694,21 +706,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Animal Planet",
@@ -720,15 +732,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "BBC World News",
@@ -740,15 +752,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "BET",
@@ -760,10 +772,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Boomerang",
@@ -775,15 +787,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": false,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "CBS Sports Network",
@@ -792,8 +804,13 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": {
+				"40": false,
+				"45": true,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "CMT",
@@ -805,10 +822,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "CNBC",
@@ -820,15 +837,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Cooking Channel",
@@ -840,15 +857,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Destination America",
@@ -860,15 +877,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Discovery Channel",
@@ -880,15 +897,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Discovery Family",
@@ -900,15 +917,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Discovery Life",
@@ -920,15 +937,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Disney Junior",
@@ -940,15 +957,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Disney XD",
@@ -960,15 +977,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "DIY",
@@ -980,15 +997,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "E!",
@@ -1000,15 +1017,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "En45",
@@ -1020,10 +1037,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": false,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "EPIX",
@@ -1032,8 +1049,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "EPIX Hits",
@@ -1042,8 +1059,14 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": "Add-on"
-		}
+			"PlayStation Vue": {
+				"Add-on": true,
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "ESPN 3",
@@ -1052,11 +1075,11 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": false
+				"25": false,
 			},
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "ESPN Deportes",
@@ -1066,12 +1089,12 @@ export default [
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "ESPNU",
@@ -1083,15 +1106,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Food Network",
@@ -1100,21 +1123,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Fox Business",
@@ -1126,15 +1149,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Fox College Sports",
@@ -1144,12 +1167,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Fox Sports 1",
@@ -1158,21 +1181,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Fox Sports 2",
@@ -1181,21 +1204,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Freeform",
@@ -1204,21 +1227,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": false
+				"25": false,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "FXX",
@@ -1227,21 +1250,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Golf Channel",
@@ -1253,15 +1276,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Hallmark",
@@ -1273,10 +1296,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": {
+				"40": false,
+				"45": true,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "HLN",
@@ -1288,15 +1316,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "IFC",
@@ -1305,21 +1333,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Investigation Discovery",
@@ -1331,15 +1359,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Ion",
@@ -1348,8 +1376,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Lifetime Movie Network",
@@ -1361,10 +1389,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "MTV2",
@@ -1376,10 +1404,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "National Geographic",
@@ -1388,21 +1416,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "NBC Sports Network",
@@ -1411,21 +1439,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Nick Jr.",
@@ -1434,16 +1462,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Nicktoons",
@@ -1455,10 +1483,10 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "OWN",
@@ -1470,15 +1498,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Science",
@@ -1490,15 +1518,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "SEC Network",
@@ -1510,15 +1538,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Spike",
@@ -1530,10 +1558,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Sundance TV",
@@ -1545,15 +1573,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "TCM",
@@ -1565,15 +1593,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Telemundo",
@@ -1585,10 +1613,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": {
+				"40": true,
+				"45": true,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Tennis Channel",
@@ -1600,10 +1633,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "TLC",
@@ -1615,15 +1648,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Travel Channel",
@@ -1632,21 +1665,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "TV Land",
@@ -1658,10 +1691,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Univision",
@@ -1670,16 +1703,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "VH1",
@@ -1691,10 +1724,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "American Heroes",
@@ -1706,15 +1739,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Audience",
@@ -1726,10 +1759,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "AXS TV",
@@ -1738,16 +1771,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Baby First",
@@ -1759,10 +1792,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Baby TV",
@@ -1771,8 +1804,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "beIN Sports",
@@ -1782,12 +1815,12 @@ export default [
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Big Ten Network",
@@ -1799,15 +1832,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
+				"40": false,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Bloomberg TV",
@@ -1816,16 +1849,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Campus Insiders",
@@ -1834,8 +1867,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Centric",
@@ -1847,10 +1880,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Cheddar",
@@ -1859,11 +1892,11 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Chiller",
@@ -1875,15 +1908,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": false,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "CNBC World",
@@ -1895,15 +1928,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "CNN International",
@@ -1912,8 +1945,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Comedy.TV",
@@ -1925,10 +1958,10 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "CSPAN 2",
@@ -1940,10 +1973,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Duck TV",
@@ -1952,8 +1985,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "El Rey Network",
@@ -1962,16 +1995,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": false,
 				"60": false,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "EPIX Drive-in",
@@ -1980,8 +2013,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "EPIX2",
@@ -1990,8 +2023,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "ESPN Bases Loaded",
@@ -2000,8 +2033,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "ESPN Buzzer Beater",
@@ -2010,8 +2043,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "ESPN Goal Line",
@@ -2020,8 +2053,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Euro News",
@@ -2030,8 +2063,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Flama",
@@ -2040,11 +2073,11 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "France 24",
@@ -2053,8 +2086,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Fuse",
@@ -2066,10 +2099,10 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Fusion",
@@ -2081,15 +2114,15 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "FX Movie Channel",
@@ -2101,15 +2134,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "FYI",
@@ -2121,10 +2154,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Galavision",
@@ -2133,16 +2166,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "GSN",
@@ -2154,10 +2187,10 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Hallmark Movies & Mysteries",
@@ -2169,10 +2202,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": {
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "HDNet Movies",
@@ -2181,8 +2219,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Hi-Yah",
@@ -2192,12 +2230,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "HSN",
@@ -2206,8 +2244,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Impact",
@@ -2217,12 +2255,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "JusticeCentral.TV",
@@ -2234,10 +2272,10 @@ export default [
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Local Now",
@@ -2246,11 +2284,11 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "LOGO",
@@ -2262,10 +2300,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Machinima",
@@ -2275,12 +2313,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Maker",
@@ -2289,11 +2327,11 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "MGM-HD",
@@ -2303,12 +2341,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Motors TV",
@@ -2317,8 +2355,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "MTV Classic",
@@ -2330,10 +2368,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Nat Geo Wild",
@@ -2342,21 +2380,21 @@ export default [
 			"YouTube TV": true,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "NDTV 24/7",
@@ -2365,8 +2403,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "NECN",
@@ -2376,12 +2414,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "News 18 India",
@@ -2390,8 +2428,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Newsy",
@@ -2400,11 +2438,11 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "ONE World Sports",
@@ -2414,12 +2452,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Outside Television",
@@ -2429,12 +2467,12 @@ export default [
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Oxygen",
@@ -2446,15 +2484,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Poker Central",
@@ -2464,12 +2502,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Polaris",
@@ -2478,16 +2516,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "POP",
@@ -2497,12 +2535,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "QVC",
@@ -2511,8 +2549,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Revolt",
@@ -2524,10 +2562,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "RFD TV",
@@ -2539,10 +2577,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Russia Today",
@@ -2551,8 +2589,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Shudder",
@@ -2561,8 +2599,8 @@ export default [
 			"YouTube TV": "Add-on",
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Sprout",
@@ -2574,15 +2612,15 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Sundance Now",
@@ -2591,8 +2629,8 @@ export default [
 			"YouTube TV": "Add-on",
 			"Sling TV": false,
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Teen Knick",
@@ -2604,10 +2642,10 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "truTV",
@@ -2616,21 +2654,21 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "TVG",
@@ -2642,10 +2680,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Universal HD",
@@ -2655,12 +2693,12 @@ export default [
 			"Sling TV": false,
 			"DirecTV Now": false,
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Universo",
@@ -2672,10 +2710,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Univision Deportes",
@@ -2687,10 +2725,10 @@ export default [
 				"35": false,
 				"50": false,
 				"60": false,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Univision Mas",
@@ -2699,16 +2737,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": false,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": false,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Velocity HD",
@@ -2720,15 +2758,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": false,
-				"35": false,
-				"45": true,
-				"65": true
-			}
-		}
+				"40": false,
+				"45": false,
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "Vibrant TV",
@@ -2737,8 +2775,8 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": "Add-on",
 			"DirecTV Now": false,
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "Viceland",
@@ -2747,16 +2785,16 @@ export default [
 			"YouTube TV": false,
 			"Sling TV": {
 				"20": true,
-				"25": true
+				"25": true,
 			},
 			"DirecTV Now": {
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
+			"PlayStation Vue": false,
+		},
 	},
 	{
 		"Name": "WE tv",
@@ -2768,15 +2806,15 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
 			"PlayStation Vue": {
-				"30": true,
-				"35": true,
+				"40": true,
 				"45": true,
-				"65": true
-			}
-		}
+				"55": true,
+				"75": true,
+			},
+		},
 	},
 	{
 		"Name": "WeatherNation",
@@ -2788,9 +2826,9 @@ export default [
 				"35": true,
 				"50": true,
 				"60": true,
-				"70": true
+				"70": true,
 			},
-			"PlayStation Vue": false
-		}
-	}
+			"PlayStation Vue": false,
+		},
+	},
 ]

@@ -12,7 +12,7 @@ export default [{
 		true: yes,
 		false: no,
 		'Add-on': addon,
-	}
+	},
 }, {
 	name: 'YouTube TV',
 	url: 'https://tv.youtube.com/welcome/',
@@ -20,7 +20,7 @@ export default [{
 		true: yes,
 		false: no,
 		'Add-on': addon,
-	}
+	},
 }, {
 	name: 'Sling TV',
 	url: 'https://www.sling.com/service',
@@ -29,8 +29,8 @@ export default [{
 		false: no,
 		'Add-on': addon,
 		20: badge('badge-default', '$20'),
-		25: badge('badge-primary', '$25')
-	}
+		25: badge('badge-primary', '$25'),
+	},
 }, {
 	name: 'DirecTV Now',
 	url: 'http://cdn.directv.com/content/dam/dtv/gmott/html/compare-packages-account.html',
@@ -41,8 +41,8 @@ export default [{
 		35: badge('badge-default', '$35'),
 		50: badge('badge-primary', '$50'),
 		60: badge('badge-info', '$60'),
-		70: badge('badge-success', '$70')
-	}
+		70: badge('badge-success', '$70'),
+	},
 }, {
 	name: 'PlayStation Vue',
 	url: 'https://www.playstation.com/en-us/network/vue/channels/',
@@ -50,9 +50,9 @@ export default [{
 		true: yes,
 		false: no,
 		'Add-on': addon,
-		30: badge('badge-default', '$30'),
-		35: badge('badge-primary', '$35'),
-		45: badge('badge-info', '$45'),
-		65: badge('badge-success', '$65')
-	}
+		40: badge('badge-default', '$40'),
+		45: badge('badge-primary', '$45'),
+		55: badge('badge-info', '$55'),
+		75: badge('badge-success', '$75'),
+	},
 }]
