@@ -2,7 +2,7 @@ Way Over the Top lets you easily compare the channel lineups for different [OTP]
 
 # The web app
 
-[Way Over the Top](https://way-over-the-top.surge.sh/)
+[Way Over the Top](http://wayoverthe.top)
 
 # Contribute to the data sets
 
