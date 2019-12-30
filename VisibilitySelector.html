@@ -6,7 +6,11 @@
 	</thead>
 	<tbody>
 		{{#each items as item}}
-		<tr on:click="showItem(item, !shown[item[displayProperty]])" class="{{shown[item[displayProperty]] ? 'table-info' : ''}}" style="cursor: pointer;">
+		<tr
+			on:click="showItem(item, !shown[item[displayProperty]])"
+			class="{{shown[item[displayProperty]] ? 'table-info' : ''}}"
+			style="cursor: pointer;"
+		>
 			<th scope="row">{{item[displayProperty]}}</th>
 		</tr>
 		{{/each}}

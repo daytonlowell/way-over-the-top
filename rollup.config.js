@@ -1,25 +1,28 @@
-import babel from 'rollup-plugin-babel'
+import * as fs from 'fs'
 import svelte from 'rollup-plugin-svelte'
+import resolve from '@rollup/plugin-node-resolve'
 
 export default {
-	format: 'iife',
-	entry: 'app.js',
-	dest: './bundle.js',
+	input: 'app.js',
+	output: {
+		file: 'dist/bundle.js',
+		format: 'iife',
+		sourcemap: true,
+	},
 	plugins: [
-		svelte(),
-		babel({
-			exclude: 'node_modules/**',
-			presets: [
-				[
-					'es2015',
-					{
-						modules: false
-					}
-				]
-			],
-			plugins: [
-				'external-helpers'
-			]
+		svelte({
+			include: 'components/**/*.svelte',
+			css(css) {
+				css.write('dist/main.css')
+			},
+			onwarn: (warning, handler) => {
+				if (warning.code === 'a11y-distracting-elements') {
+					return
+				}
+
+				handler(warning)
+			},
 		}),
-	]
+		resolve(),
+	],
 }

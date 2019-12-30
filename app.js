@@ -1,8 +1,5 @@
-import Main from './Main.html'
+import Main from './components/Main.svelte'
 
 new Main({
 	target: document.querySelector('main'),
-	data: {
-		channelPickMode: false,
-	}
 })

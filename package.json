@@ -1,23 +1,20 @@
 {
   "name": "way-over-the-top",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Over the Top Internet TV data and web view",
   "main": "Channels.js",
   "dependencies": {
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-es2015": "^6.24.1",
-    "rollup": "^0.45.2",
-    "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-svelte": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup": "^1.27.14",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.1",
     "rollup-watch": "^4.3.1",
-    "surge": "^0.19.0",
-    "svelte": "^1.26.2",
-    "svelte-cli": "^1.4.0"
+    "svelte": "^3.16.7",
+    "svelte-cli": "^3.0.0"
   },
   "devDependencies": {
-    "reify": "0.11.19",
+    "reify": "^0.20.12",
     "tap": "10.3.2"
   },
   "scripts": {

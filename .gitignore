@@ -3,3 +3,5 @@ bundle.js
 bundle.js.map
 *.gz
 .reify-cache
+.DS_Store
+node_modules
