@@ -904,9 +904,9 @@ export default [
 			'Fubo TV': true,
 			'Hulu Live TV': false,
 			'Philo': false,
-			'Sling Blue': true,
+			'Sling Blue': false,
 			'Sling Orange': false,
-			'YouTube TV': false,
+			'YouTube TV': true,
 		},
 	},
 	{
@@ -917,9 +917,9 @@ export default [
 			'Fubo TV': 'add-on',
 			'Hulu Live TV': false,
 			'Philo': false,
-			'Sling Blue': 'add-on',
+			'Sling Blue': false,
 			'Sling Orange': false,
-			'YouTube TV': false,
+			'YouTube TV': 'add-on',
 		},
 	},
 	{

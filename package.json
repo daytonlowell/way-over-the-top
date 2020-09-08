@@ -4,13 +4,14 @@
   "description": "Over the Top Internet TV data and web view",
   "main": "Channels.js",
   "dependencies": {
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "rollup": "^1.27.14",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-svelte": "^5.2.3",
     "rollup-watch": "^4.3.1",
-    "svelte": "^3.16.7",
+    "surge": "^0.21.6",
+    "svelte": "^3.24.1",
     "svelte-cli": "^3.0.0"
   },
   "devDependencies": {
